@@ -1,0 +1,20 @@
+:root {
+    --main-color: #FFFFFF;
+    --additional-color: #F4E8D3;
+    --emphasis-color: #67BA80;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("fonts/SegoeUI.ttf")
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+nav {
+    background-color: var(--additional-color);
+}
